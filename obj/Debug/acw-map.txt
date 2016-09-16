@@ -1,8 +1,0 @@
-MedicalApp.GUI, MedicalApp;md5f460a08c6ff6401a575c4c177fb81886.GUI
-MedicalApp.GUI, MedicalApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f460a08c6ff6401a575c4c177fb81886.GUI
-MedicalApp.GUI;md5f460a08c6ff6401a575c4c177fb81886.GUI
-medicalapp.GUI;md5f460a08c6ff6401a575c4c177fb81886.GUI
-MedicalApp.MainActivity, MedicalApp;md5f460a08c6ff6401a575c4c177fb81886.MainActivity
-MedicalApp.MainActivity, MedicalApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f460a08c6ff6401a575c4c177fb81886.MainActivity
-MedicalApp.MainActivity;md5f460a08c6ff6401a575c4c177fb81886.MainActivity
-medicalapp.MainActivity;md5f460a08c6ff6401a575c4c177fb81886.MainActivity
