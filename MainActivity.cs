@@ -5,44 +5,33 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Views.InputMethods;
+using System.Collections.Generic;
 
-namespace MedicalApp
+namespace Attempt_7
 {
-    [Activity(Label = "MedicalApp", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Attempt_7", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        RelativeLayout mRelativeLayout;
-        Button mButton;
+        private List <Medical> myItems;
+        private ListView myListView;
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            mRelativeLayout = FindViewById<RelativeLayout>(Resource.Id.mainView);
-            mButton = FindViewById<Button>(Resource.Id.btnLogin);
+            myListView = FindViewById<ListView>(Resource.Id.MyListView1);
+      
+            myItems = new List<Medical>();
+            myItems.Add(new Medical() {time = "10:00PM", medication = "Paracetamol", quantity = "2", checkbox = "Ticked" });
+            myItems.Add(new Medical() { time = "11:30PM", medication = "Ibuprofen", quantity = "2", checkbox = "Unticked" });
+            myItems.Add(new Medical() { time = "1:00PM", medication = "Strepsil", quantity = "2", checkbox = "Unticked" });
 
-            mButton.Click += mButton_Click;
-            mRelativeLayout.Click += mRelativeLayout_Click;
-         }
+            MyListViewAdapter adapter = new MyListViewAdapter(this, myItems);
 
-        void mButton_Click(object sender, EventArgs e)
-        {
-            Intent intent = new Intent(this, typeof(GUI));
-            this.StartActivity(intent);
-            this.Finish();
+            myListView.Adapter = adapter;
         }
-
-        void mRelativeLayout_Click(object sender, EventArgs e)
-        {
-            InputMethodManager inputManager = (InputMethodManager)this.GetSystemService(Activity.InputMethodService);
-            inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.None);
-        }
-
     }
 }
-
 
