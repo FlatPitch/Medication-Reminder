@@ -66,8 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseControl.cs" />
-    <Compile Include="GUI.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="MainScreen.cs" />
+    <Compile Include="LoginActivity.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,12 +79,12 @@
     </None>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\GUI.axml">
+    <AndroidResource Include="Resources\layout\MainScreen.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml">
+    <AndroidResource Include="Resources\layout\LoginScreen.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
