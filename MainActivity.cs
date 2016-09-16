@@ -25,23 +25,20 @@ namespace MedicalApp
             mRelativeLayout = FindViewById<RelativeLayout>(Resource.Id.mainView);
             mButton = FindViewById<Button>(Resource.Id.btnLogin);
 
-            mButton.Click += mButton_Click;
-            mRelativeLayout.Click += mRelativeLayout_Click;
+            mButton.Click += delegate
+            {
+                Intent intent = new Intent(this, typeof(GUI));
+                this.StartActivity(intent);
+                this.Finish();
+            };
+
+            mRelativeLayout.Click += delegate
+            {
+                InputMethodManager inputManager = (InputMethodManager)this.GetSystemService(Activity.InputMethodService);
+                inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.None);
+
+            };
          }
-
-        void mButton_Click(object sender, EventArgs e)
-        {
-            Intent intent = new Intent(this, typeof(GUI));
-            this.StartActivity(intent);
-            this.Finish();
-        }
-
-        void mRelativeLayout_Click(object sender, EventArgs e)
-        {
-            InputMethodManager inputManager = (InputMethodManager)this.GetSystemService(Activity.InputMethodService);
-            inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.None);
-        }
-
     }
 }
 

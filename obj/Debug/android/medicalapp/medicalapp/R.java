@@ -18,9 +18,9 @@ public final class R {
         public static final int progressbar=0x7f020004;
     }
     public static final class id {
+        public static final int RememberMeCheckbox=0x7f050007;
         public static final int Username=0x7f050002;
         public static final int btnLogin=0x7f050006;
-        public static final int checkBox1=0x7f050007;
         public static final int mainView=0x7f050001;
         public static final int password=0x7f050004;
         public static final int progressBar=0x7f050008;

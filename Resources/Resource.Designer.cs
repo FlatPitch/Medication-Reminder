@@ -72,14 +72,14 @@ namespace MedicalApp
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050007
+			public const int RememberMeCheckbox = 2131034119;
+			
 			// aapt resource value: 0x7f050002
 			public const int Username = 2131034114;
 			
 			// aapt resource value: 0x7f050006
 			public const int btnLogin = 2131034118;
-			
-			// aapt resource value: 0x7f050007
-			public const int checkBox1 = 2131034119;
 			
 			// aapt resource value: 0x7f050001
 			public const int mainView = 2131034113;
