@@ -14,8 +14,6 @@ namespace MedicalApp
     [Activity(Label = "MedicalApp", MainLauncher = true, Icon = "@drawable/icon")]
     public class LoginActivity : Activity
     {
-
-
         RelativeLayout mRelativeLayout;
         Button mButton;
         private EditText UserName;
@@ -41,9 +39,7 @@ namespace MedicalApp
             mButton.Click += mButton_Click;
             mRelativeLayout.Click += mRelativeLayout_Click;
             database_Setup();
-
-
-
+            
         }
 
         public void database_Setup()
@@ -59,7 +55,7 @@ namespace MedicalApp
             Person login = new Person(user, password);
             if (dbControl.checkLogin(login))
                 {
-                Intent intent = new Intent(this, typeof(MainScreen));
+                Intent intent = new Intent(this, typeof(MainScreenActivity));
                 this.StartActivity(intent);
                 Finish();
             }

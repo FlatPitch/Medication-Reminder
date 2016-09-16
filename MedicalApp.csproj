@@ -66,7 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseControl.cs" />
-    <Compile Include="MainScreen.cs" />
+    <Compile Include="MainScreenActivity.cs" />
     <Compile Include="LoginActivity.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
