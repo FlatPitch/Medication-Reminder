@@ -37,18 +37,30 @@ namespace MedicalApp
         }
     }
 
-    /* 
-     * This class returns the screen to be displayed as the user swipes across
-     * MainScreenActivity
+    /*
+     * This class represents the multiple MainPageFragment objects, in a sequence
      */
-   public class MainPageFragment : Android.Support.V4.App.Fragment
+    public class MedicationPagerAdapter : FragmentPagerAdapter
     {
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-        {
-            Console.WriteLine("Inflating Screen");
-            var rootView = inflater.Inflate(Resource.Layout.MainScreen, container, false);
+        private const int NUM_OF_PAGES = 7;
 
-            return rootView;
+        public MedicationPagerAdapter(Android.Support.V4.App.FragmentManager fm) : base(fm)
+        {
+
+        }
+
+        public override int Count
+        {
+            get
+            {
+                return 7;
+            }
+        }
+
+        public override Android.Support.V4.App.Fragment GetItem(int position)
+        {
+            Console.WriteLine("Accessed!!!");
+            return new MainPageFragment();
         }
     }
 }
