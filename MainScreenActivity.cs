@@ -8,8 +8,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.App;
-using Android.Support.V4.App;
-using Android.Support.V4.View; /*Resolve error by adding Android Support Libray v4 component:
+/*using Android.Support.V4.View; /*Resolve error by adding Android Support Libray v4 component:
                                *Right click Components in Solution Explorer and 'add Compoent'
                                *Search 'Android Support Libray v4' and add it*/
 
@@ -21,46 +20,25 @@ namespace MedicalApp
      * to show current and future days medication
      */
     [Activity(Label = "Main Screen")]
-    public class MainScreenActivity : FragmentActivity
+    public class MainScreenActivity : Activity
     {
-        private ViewPager mPager; //handles swiping and animation when moving across screens
+        private Button nextDayBtn;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.MainPageActivity_ScreenSlide);
+            SetContentView(Resource.Layout.MainScreen);
 
-            // Instantiating the ViewPager and PagerAdapter
-            mPager = FindViewById<ViewPager>(Resource.Id.pager);
-            mPager.Adapter = new MedicationPagerAdapter(SupportFragmentManager);
-        }
-    }
+            nextDayBtn = FindViewById<Button>(Resource.Id.nextDayBtn);
 
-    /*
-     * This class represents the multiple MainPageFragment objects, in a sequence
-     */
-    public class MedicationPagerAdapter : FragmentPagerAdapter
-    {
-        private const int NUM_OF_PAGES = 7;
-
-        public MedicationPagerAdapter(Android.Support.V4.App.FragmentManager fm) : base(fm)
-        {
-
-        }
-
-        public override int Count
-        {
-            get
+            nextDayBtn.Click += delegate
             {
-                return 7;
-            }
-        }
-
-        public override Android.Support.V4.App.Fragment GetItem(int position)
-        {
-            Console.WriteLine("Accessed!!!");
-            return new MainPageFragment();
+                FragmentTransaction transaction = FragmentManager.BeginTransaction();
+                NextDay_DialogFragment dialog = new NextDay_DialogFragment();
+                dialog.Show(transaction, "dialog fragment");
+            };
+            
         }
     }
 }
