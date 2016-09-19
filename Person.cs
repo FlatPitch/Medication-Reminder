@@ -21,6 +21,10 @@ namespace MedicalApp
         public string UserName { get; set; }
 
         public string Password { get; set; }
+        public string Medication { get; set; }
+        public string Dosage { get; set; }
+        public string Time { get; set; }
+
 
         public override string ToString()
         {
