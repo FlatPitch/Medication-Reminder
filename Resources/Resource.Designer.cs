@@ -81,17 +81,29 @@ namespace MedicalApp
 			// aapt resource value: 0x7f050007
 			public const int checkBox1 = 2131034119;
 			
+			// aapt resource value: 0x7f050009
+			public const int dateTextView = 2131034121;
+			
 			// aapt resource value: 0x7f050001
 			public const int mainView = 2131034113;
+			
+			// aapt resource value: 0x7f05000b
+			public const int medAmouuntTextView = 2131034123;
+			
+			// aapt resource value: 0x7f05000a
+			public const int medNameTextView = 2131034122;
+			
+			// aapt resource value: 0x7f05000c
+			public const int medTimeTextView = 2131034124;
+			
+			// aapt resource value: 0x7f050000
+			public const int nextDayBtn = 2131034112;
 			
 			// aapt resource value: 0x7f050004
 			public const int password = 2131034116;
 			
 			// aapt resource value: 0x7f050008
 			public const int progressBar = 2131034120;
-			
-			// aapt resource value: 0x7f050000
-			public const int timePicker1 = 2131034112;
 			
 			// aapt resource value: 0x7f050005
 			public const int txtPassword = 2131034117;
@@ -117,6 +129,9 @@ namespace MedicalApp
 			
 			// aapt resource value: 0x7f030001
 			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int NextDay_DialogFragment_Layout = 2130903042;
 			
 			static Layout()
 			{

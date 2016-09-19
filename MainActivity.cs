@@ -35,6 +35,7 @@ namespace MedicalApp
             var docsFolder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
             var pathToDatabase = System.IO.Path.Combine(docsFolder, "db_sqlnet.db");
             dbControl.setPath(pathToDatabase);
+            dbControl.populateLogin();
             
             
 

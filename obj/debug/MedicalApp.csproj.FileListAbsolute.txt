@@ -132,5 +132,6 @@ C:\Users\brend\Documents\GitHub\Medication-Reminder\obj\Debug\android\assets\Sys
 C:\Users\brend\Documents\GitHub\Medication-Reminder\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\brend\Documents\GitHub\Medication-Reminder\bin\Debug\MedicalApp.dll.mdb
 C:\Users\brend\Documents\GitHub\Medication-Reminder\obj\Debug\android\assets\MedicalApp.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\obj\Debug\res\layout\nextday_dialogfragment_layout.xml
 C:\Users\brend\Documents\GitHub\Medication-Reminder\obj\Debug\MedicalApp.dll.mdb
 C:\Users\brend\Documents\GitHub\Medication-Reminder\bin\Debug\MedicalApp.dll.mdb

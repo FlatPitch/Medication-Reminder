@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+    android:text="Date should be displayed at top centre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dateTextView">
+  </TextView>
+  <TextView
+    android:text="Medication name displayed here"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/medNameTextView">
+  </TextView>
+  <TextView
+    android:text="Amount displayed next to medName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/medAmouuntTextView">
+  </TextView>
+  <TextView
+    android:text="Time displayed next medAmount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/medTimeTextView">
+  </TextView>
+</LinearLayout>

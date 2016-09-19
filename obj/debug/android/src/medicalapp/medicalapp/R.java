@@ -21,16 +21,21 @@ public final class R {
         public static final int Username=0x7f050002;
         public static final int btnLogin=0x7f050006;
         public static final int checkBox1=0x7f050007;
+        public static final int dateTextView=0x7f050009;
         public static final int mainView=0x7f050001;
+        public static final int medAmouuntTextView=0x7f05000b;
+        public static final int medNameTextView=0x7f05000a;
+        public static final int medTimeTextView=0x7f05000c;
+        public static final int nextDayBtn=0x7f050000;
         public static final int password=0x7f050004;
         public static final int progressBar=0x7f050008;
-        public static final int timePicker1=0x7f050000;
         public static final int txtPassword=0x7f050005;
         public static final int txtUserName=0x7f050003;
     }
     public static final class layout {
         public static final int gui=0x7f030000;
         public static final int main=0x7f030001;
+        public static final int nextday_dialogfragment_layout=0x7f030002;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;
