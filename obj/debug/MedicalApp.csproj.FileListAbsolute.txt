@@ -1,0 +1,92 @@
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\MedicalApp.dll
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\MedicalApp.pdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\MedicalApp.MedicalApp.apk
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\MedicalApp.MedicalApp-Signed.apk
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\SQLite-net.dll
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\SQLitePCL.batteries.dll
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\SQLitePCL.raw.dll
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\SQLitePCLPlugin_esqlite3.dll
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\SQLite-net.xml
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\SQLite-net.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\MedicalApp.dll
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\MedicalApp.pdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\bin\MedicalApp.MedicalApp.apk
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\res\layout\gui.xml
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\res\layout\main.xml
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\res\values\strings.xml
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\res\drawable\icon.png
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\res\drawable\buttonsignin.xml
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\res\drawable\checkbox_style.xml
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\res\drawable\progressbar.xml
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\res\drawable\edit_text_style.xml
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\R.cs.flag
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\uploadflags.txt
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\MedicalApp.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\Java.Interop.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\Mono.Android.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\mscorlib.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\System.ComponentModel.Composition.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\System.Core.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\System.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\System.Net.Http.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\System.Runtime.Serialization.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\System.ServiceModel.Internals.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\System.Xml.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\bin\Debug\System.Xml.Linq.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\Java.Interop.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\MedicalApp.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\Mono.Android.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\mscorlib.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\SQLite-net.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\System.Core.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\System.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\System.Net.Http.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\System.Xml.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\MedicalApp.csprojResolveAssemblyReference.cache
+D:\Downloads\Medication-Reminder-master\Github V\New folder\obj\Debug\MedicalApp.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\MedicalApp.dll
+C:\Users\brend\Downloads\Keith's code\bin\Debug\MedicalApp.pdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\MedicalApp.MedicalApp.apk
+C:\Users\brend\Downloads\Keith's code\bin\Debug\MedicalApp.MedicalApp-Signed.apk
+C:\Users\brend\Downloads\Keith's code\obj\Debug\MedicalApp.csprojResolveAssemblyReference.cache
+C:\Users\brend\Downloads\Keith's code\obj\Debug\MedicalApp.dll
+C:\Users\brend\Downloads\Keith's code\obj\Debug\MedicalApp.pdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\bin\MedicalApp.MedicalApp.apk
+C:\Users\brend\Downloads\Keith's code\obj\Debug\res\layout\gui.xml
+C:\Users\brend\Downloads\Keith's code\obj\Debug\res\layout\main.xml
+C:\Users\brend\Downloads\Keith's code\obj\Debug\res\values\strings.xml
+C:\Users\brend\Downloads\Keith's code\obj\Debug\res\drawable\icon.png
+C:\Users\brend\Downloads\Keith's code\obj\Debug\res\drawable\buttonsignin.xml
+C:\Users\brend\Downloads\Keith's code\obj\Debug\res\drawable\checkbox_style.xml
+C:\Users\brend\Downloads\Keith's code\obj\Debug\res\drawable\progressbar.xml
+C:\Users\brend\Downloads\Keith's code\obj\Debug\res\drawable\edit_text_style.xml
+C:\Users\brend\Downloads\Keith's code\obj\Debug\R.cs.flag
+C:\Users\brend\Downloads\Keith's code\obj\Debug\uploadflags.txt
+C:\Users\brend\Downloads\Keith's code\bin\Debug\Java.Interop.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\Mono.Android.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\mscorlib.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\System.Core.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\System.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\System.Xml.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\System.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\brend\Downloads\Keith's code\obj\Debug\MedicalApp.dll.mdb
+C:\Users\brend\Downloads\Keith's code\bin\Debug\MedicalApp.dll.mdb
