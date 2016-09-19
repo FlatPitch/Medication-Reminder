@@ -74,9 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseControl.cs" />
-    <Compile Include="MainPageFragment.cs" />
     <Compile Include="MainScreenActivity.cs" />
     <Compile Include="LoginActivity.cs" />
+    <Compile Include="NextDay_DialogFragment.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,7 +92,7 @@
     <AndroidResource Include="Resources\layout\MainScreen.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\MainPageActivity_ScreenSlide.axml">
+    <AndroidResource Include="Resources\layout\NextDay_DialogFragment_Layout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
