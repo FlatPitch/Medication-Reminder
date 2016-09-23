@@ -68,12 +68,14 @@
     <Compile Include="DatabaseControl.cs" />
     <Compile Include="GUI.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Medication.cs" />
     <Compile Include="NextDay_DialogFragment.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config">
       <SubType>Designer</SubType>

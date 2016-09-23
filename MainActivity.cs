@@ -35,22 +35,17 @@ namespace MedicalApp
             var docsFolder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
             var pathToDatabase = System.IO.Path.Combine(docsFolder, "db_sqlnet.db");
             dbControl.setPath(pathToDatabase);
+            dbControl.accessDatabase();
             dbControl.populateLogin();
             
             
 
             mButton.Click += mButton_Click;
             mRelativeLayout.Click += mRelativeLayout_Click;
-            database_Setup();
+            
 
 
 
-        }
-
-        public void database_Setup()
-        {
-            dbControl.accessDatabase();
-           
         }
 
         void mButton_Click(object sender, EventArgs e)
