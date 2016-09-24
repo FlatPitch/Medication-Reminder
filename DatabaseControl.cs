@@ -131,10 +131,7 @@ namespace MedicalApp
             insertUpdateData(test);
             insertUpdateData(test1);
         }
-        public string medicationPartReturn(string section)
-        {
-            return null;
-        }
+       
         
        
     }

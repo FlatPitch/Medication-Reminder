@@ -184,5 +184,6 @@ D:\GitHub CLones\Medication-Reminder\obj\Debug\android\assets\System.Runtime.Ser
 D:\GitHub CLones\Medication-Reminder\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 D:\GitHub CLones\Medication-Reminder\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\GitHub CLones\Medication-Reminder\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\GitHub CLones\Medication-Reminder\obj\Debug\MedicalApp.csprojResolveAssemblyReference.cache
 D:\GitHub CLones\Medication-Reminder\obj\Debug\MedicalApp.dll.mdb
 D:\GitHub CLones\Medication-Reminder\bin\Debug\MedicalApp.dll.mdb

@@ -30,12 +30,15 @@ namespace MedicalApp
             dbControl.setPath(pathToDatabase);
             dbControl.accessDatabase();
             dbControl.populateMedication();
-              
+          
+
+
             meds = FindViewById<ListView>(Resource.Id.MedicationView);
 
             ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItemChecked, dbControl.medication(dbControl.getLoggedIn()));
             meds.Adapter = null;
             meds.Adapter = adapter;
+            
 
             nextDayBtn = FindViewById<Button>(Resource.Id.nextDayBtn);
 
@@ -45,6 +48,7 @@ namespace MedicalApp
                 NextDay_DialogFragment dialog = new NextDay_DialogFragment();
                 dialog.Show(transaction, "dialog fragment");
             };
+           
 
 
 

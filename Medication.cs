@@ -41,11 +41,32 @@ namespace MedicalApp
             this.Dosage = dosage;
             this.Time = time;
         }
+        
+        public string StringExtender(int lengthToExtendTo, int lengthOfString)
+        {
+            string st1 = null;
+            int lengthExtend = lengthToExtendTo - lengthOfString;
+            for(int i = 0; i < lengthExtend; i++)
+            {
+                st1 += " ";
+            }
+            return st1;
+        }
 
         public override string ToString()
         {
-            return string.Format("{0}, {1}, {2}",
-              Time, medName, Dosage);
+            string st1 = null;
+            string stringTime = Convert.ToString(Time);
+            string stringDosage = Convert.ToString(Dosage);
+            if(stringTime.Length == 3)
+            {
+                stringTime = "0" + stringTime;
+            }
+            stringDosage += "mL";
+            string meds = medName;
+            meds += StringExtender(15, meds.Length);
+            st1 += stringTime + " " + meds + " " + stringDosage;
+            return st1;
         }
 
 
