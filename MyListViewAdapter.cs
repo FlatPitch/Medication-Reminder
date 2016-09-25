@@ -64,11 +64,11 @@ namespace MedicalApp
             row.SetBackgroundColor(Color.DarkSeaGreen);
 
             checkBox.Click += (o, e) => {
-                if (checkBox.Checked)
+                if (checkBox.Checked && position != 0)
                 { 
                     row.SetBackgroundColor(Color.DarkRed);
                 }
-                else
+                if (checkBox.Checked == false && position != 0)
                 {
                     Medication.Text = mItems[position].Medication;
                     row.SetBackgroundColor(Color.DarkSeaGreen);
@@ -79,6 +79,7 @@ namespace MedicalApp
             if(position == 0)
             {
                 row.SetBackgroundColor(Color.Black);
+                
 
             }
            
