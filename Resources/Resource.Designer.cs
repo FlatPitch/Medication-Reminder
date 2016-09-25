@@ -84,41 +84,44 @@ namespace MedicalApp
 			// aapt resource value: 0x7f050001
 			public const int Time = 2131034113;
 			
-			// aapt resource value: 0x7f050005
-			public const int Username = 2131034117;
-			
-			// aapt resource value: 0x7f050009
-			public const int btnLogin = 2131034121;
+			// aapt resource value: 0x7f050006
+			public const int Username = 2131034118;
 			
 			// aapt resource value: 0x7f05000a
-			public const int checkBox1 = 2131034122;
-			
-			// aapt resource value: 0x7f05000c
-			public const int dateTextView = 2131034124;
-			
-			// aapt resource value: 0x7f050004
-			public const int mainView = 2131034116;
-			
-			// aapt resource value: 0x7f05000e
-			public const int medAmouuntTextView = 2131034126;
-			
-			// aapt resource value: 0x7f05000d
-			public const int medNameTextView = 2131034125;
-			
-			// aapt resource value: 0x7f05000f
-			public const int medTimeTextView = 2131034127;
-			
-			// aapt resource value: 0x7f050007
-			public const int password = 2131034119;
+			public const int btnLogin = 2131034122;
 			
 			// aapt resource value: 0x7f05000b
-			public const int progressBar = 2131034123;
+			public const int checkBox1 = 2131034123;
+			
+			// aapt resource value: 0x7f050004
+			public const int checkbox = 2131034116;
+			
+			// aapt resource value: 0x7f05000d
+			public const int dateTextView = 2131034125;
+			
+			// aapt resource value: 0x7f050005
+			public const int mainView = 2131034117;
+			
+			// aapt resource value: 0x7f05000f
+			public const int medAmouuntTextView = 2131034127;
+			
+			// aapt resource value: 0x7f05000e
+			public const int medNameTextView = 2131034126;
+			
+			// aapt resource value: 0x7f050010
+			public const int medTimeTextView = 2131034128;
 			
 			// aapt resource value: 0x7f050008
-			public const int txtPassword = 2131034120;
+			public const int password = 2131034120;
 			
-			// aapt resource value: 0x7f050006
-			public const int txtUserName = 2131034118;
+			// aapt resource value: 0x7f05000c
+			public const int progressBar = 2131034124;
+			
+			// aapt resource value: 0x7f050009
+			public const int txtPassword = 2131034121;
+			
+			// aapt resource value: 0x7f050007
+			public const int txtUserName = 2131034119;
 			
 			static Id()
 			{

@@ -32,6 +32,7 @@ namespace MedicalApp
             var docsFolder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
             var pathToDatabase = System.IO.Path.Combine(docsFolder, "db_sqlnet.db");
             dbControl.setPath(pathToDatabase);
+            dbControl.deleteMedicationTable();
             dbControl.accessDatabase();
             dbControl.populateMedication();
             mListView = FindViewById<ListView>(Resource.Id.MedicationView);
@@ -39,6 +40,13 @@ namespace MedicalApp
             //Creating a list stuff
             medication = new List<ListViewVariables>();
             medication = dbControl.medication(dbControl.getLoggedIn());
+
+            //adding a header too the top of the list
+            ListViewVariables header = new ListViewVariables();
+            header.Dosage = "Dosage";
+            header.Time = "Time";
+            header.Medication = "Medication";
+            medication.Insert(0, header);
             
 
             //ListView implementation stuff

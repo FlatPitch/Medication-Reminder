@@ -45,6 +45,12 @@ namespace MedicalApp
             }
         }
 
+        public void deleteMedicationTable()
+        {
+            var db = new SQLiteConnection(this.pathToDB);
+            db.DeleteAll<Medication>();
+        }
+
         public string insertUpdateData(Person data)
         {
             try
@@ -105,8 +111,9 @@ namespace MedicalApp
             {
                 ListViewVariables medication = new ListViewVariables();
                 medication.Medication = names.medName;
-                medication.Time = Convert.ToString(names.Time);
-                medication.Dosage = Convert.ToString(names.Dosage);
+                medication.Time = names.convertTime();
+                medication.Dosage = Convert.ToString(names.Dosage) + "g";
+                
 
                 meds.Add(medication);
 

@@ -53,6 +53,29 @@ namespace MedicalApp
             return st1;
         }
 
+        public string convertTime()
+        {
+            Time = this.Time;
+            string AmOrPm = null;
+            string newTime = null;
+            int FirstTwoDigits = Time / 100;
+            int lastTwoDidgits = Time % 100;
+            if(FirstTwoDigits > 12)
+            {
+                AmOrPm = "pm";
+                FirstTwoDigits = FirstTwoDigits - 12;
+            }
+            else { AmOrPm = "am"; }
+   
+            newTime += Convert.ToString(FirstTwoDigits);
+            newTime += ":";
+            newTime += Convert.ToString(lastTwoDidgits);
+            newTime += AmOrPm;
+
+
+            return newTime;
+        }
+
         public override string ToString()
         {
             string st1 = null;
