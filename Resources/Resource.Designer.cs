@@ -78,6 +78,9 @@ namespace MedicalApp
 			// aapt resource value: 0x7f050002
 			public const int Medication = 2131034114;
 			
+			// aapt resource value: 0x7f050004
+			public const int MedicationCheck = 2131034116;
+			
 			// aapt resource value: 0x7f050000
 			public const int MedicationView = 2131034112;
 			
@@ -92,9 +95,6 @@ namespace MedicalApp
 			
 			// aapt resource value: 0x7f05000b
 			public const int checkBox1 = 2131034123;
-			
-			// aapt resource value: 0x7f050004
-			public const int checkbox = 2131034116;
 			
 			// aapt resource value: 0x7f05000d
 			public const int dateTextView = 2131034125;

@@ -9,6 +9,9 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Graphics;
+
+
 
 namespace MedicalApp
 {
@@ -57,10 +60,33 @@ namespace MedicalApp
             Medication.Text = mItems[position].Medication;
             TextView Dosage = row.FindViewById<TextView>(Resource.Id.Dosage);
             Dosage.Text = mItems[position].Dosage;
+            CheckBox checkBox = row.FindViewById<CheckBox>(Resource.Id.MedicationCheck);
+            row.SetBackgroundColor(Color.DarkSeaGreen);
 
+            checkBox.Click += (o, e) => {
+                if (checkBox.Checked)
+                { 
+                    row.SetBackgroundColor(Color.DarkRed);
+                }
+                else
+                {
+                    Medication.Text = mItems[position].Medication;
+                    row.SetBackgroundColor(Color.DarkSeaGreen);
+                }
+                
+                    
+            };
+            if(position == 0)
+            {
+                row.SetBackgroundColor(Color.Black);
 
+            }
+           
+            
             return row;
         }
+
+
     }
     
 }

@@ -60,6 +60,7 @@ namespace MedicalApp
             string newTime = null;
             int FirstTwoDigits = Time / 100;
             int lastTwoDidgits = Time % 100;
+            int lastDigit = Time % 10;
             if(FirstTwoDigits > 12)
             {
                 AmOrPm = "pm";
@@ -70,8 +71,13 @@ namespace MedicalApp
             newTime += Convert.ToString(FirstTwoDigits);
             newTime += ":";
             newTime += Convert.ToString(lastTwoDidgits);
+            if (lastDigit == 0)
+            {
+                newTime += "0";
+            }
             newTime += AmOrPm;
 
+            
 
             return newTime;
         }

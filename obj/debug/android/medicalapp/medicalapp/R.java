@@ -20,12 +20,12 @@ public final class R {
     public static final class id {
         public static final int Dosage=0x7f050003;
         public static final int Medication=0x7f050002;
+        public static final int MedicationCheck=0x7f050004;
         public static final int MedicationView=0x7f050000;
         public static final int Time=0x7f050001;
         public static final int Username=0x7f050006;
         public static final int btnLogin=0x7f05000a;
         public static final int checkBox1=0x7f05000b;
-        public static final int checkbox=0x7f050004;
         public static final int dateTextView=0x7f05000d;
         public static final int mainView=0x7f050005;
         public static final int medAmouuntTextView=0x7f05000f;

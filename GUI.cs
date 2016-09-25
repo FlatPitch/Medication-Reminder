@@ -52,6 +52,7 @@ namespace MedicalApp
             //ListView implementation stuff
             MyListViewAdapter adapter = new MyListViewAdapter(this, medication);
             mListView.Adapter = adapter;
+            
 
 
 
