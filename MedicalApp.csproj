@@ -67,8 +67,10 @@
   <ItemGroup>
     <Compile Include="DatabaseControl.cs" />
     <Compile Include="GUI.cs" />
+    <Compile Include="ListViewVariables.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Medication.cs" />
+    <Compile Include="MyListViewAdapter.cs" />
     <Compile Include="NextDay_DialogFragment.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -77,6 +79,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="GettingStarted.Xamarin" />
+    <None Include="MedicalApp.csproj.bak" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
@@ -86,6 +89,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\NextDay_DialogFragment_Layout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\listview_row.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

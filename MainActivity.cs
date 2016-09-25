@@ -37,8 +37,8 @@ namespace MedicalApp
             dbControl.setPath(pathToDatabase);
             dbControl.accessDatabase();
             dbControl.populateLogin();
-            
-            
+
+
 
             mButton.Click += mButton_Click;
             mRelativeLayout.Click += mRelativeLayout_Click;

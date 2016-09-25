@@ -92,24 +92,23 @@ namespace MedicalApp
             }
         }
 
-        public List<string> medication(string username)
+        public List<ListViewVariables> medication(string username)
         {
-            var meds = new List<string>();
+            var meds = new List<ListViewVariables>();
              
             
             var db = new SQLiteConnection(this.pathToDB);
             var Query_Medication = db.Query<Medication>("SELECT DISTINCT * from Medication WHERE Name LIKE ?", username);
             int size = Query_Medication.Capacity;
-            if(size == 0)
-            {
-                Medication m = new Medication("failed", "failed", 1, 1);
-                meds.Add(m.ToString());
-                return meds;
-            }
+            
             foreach(var names in Query_Medication)
             {
-                Medication med = new Medication(names.medName, names.Dosage, names.Time);
-                meds.Add(med.ToString());
+                ListViewVariables medication = new ListViewVariables();
+                medication.Medication = names.medName;
+                medication.Time = Convert.ToString(names.Time);
+                medication.Dosage = Convert.ToString(names.Dosage);
+
+                meds.Add(medication);
 
 
             }

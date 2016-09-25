@@ -150,6 +150,7 @@ D:\GitHub CLones\Medication-Reminder\obj\Debug\MedicalApp.pdb
 D:\GitHub CLones\Medication-Reminder\obj\Debug\android\bin\MedicalApp.MedicalApp.apk
 D:\GitHub CLones\Medication-Reminder\obj\Debug\res\layout\gui.xml
 D:\GitHub CLones\Medication-Reminder\obj\Debug\res\layout\nextday_dialogfragment_layout.xml
+D:\GitHub CLones\Medication-Reminder\obj\Debug\res\layout\listview_row.xml
 D:\GitHub CLones\Medication-Reminder\obj\Debug\res\layout\main.xml
 D:\GitHub CLones\Medication-Reminder\obj\Debug\res\values\strings.xml
 D:\GitHub CLones\Medication-Reminder\obj\Debug\res\drawable\icon.png
