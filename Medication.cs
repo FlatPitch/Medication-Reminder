@@ -41,6 +41,8 @@ namespace MedicalApp
             this.Dosage = dosage;
             this.Time = time;
         }
+
+  
         
         public string StringExtender(int lengthToExtendTo, int lengthOfString)
         {
@@ -76,9 +78,6 @@ namespace MedicalApp
                 newTime += "0";
             }
             newTime += AmOrPm;
-
-            
-
             return newTime;
         }
 

@@ -98,6 +98,7 @@ namespace MedicalApp
             }
         }
 
+
         public List<ListViewVariables> medication(string username)
         {
             var meds = new List<ListViewVariables>();

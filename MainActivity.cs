@@ -67,7 +67,36 @@ namespace MedicalApp
                       ) .Show();
                  };
 
+            /* Jordan Bailey - ID:14872932 */
+            if(login.UserName != UserName.Text)
+            {
+                Console.WriteLine("Unit Test 7: Failed to store entered username into person object.");
+            }
+            else
+            {
+                Console.WriteLine("Unit Test 7: Passed.");
+            }
+            if(login.Password != Password.Text)
+            {
+                Console.WriteLine("Unit Test 8: Falied to store entered password into person object.");
+            }
+            else
+            {
+                Console.WriteLine("Unit Test 8: Passed.");
+            }
+            if (Intent == null)
+            {
+                Console.WriteLine("Unit Test 9: Failed to create GUI");
+            }
+            else
+            {
+                Console.WriteLine("Unit Test 9: Passed.");
+            }
         }
+
+
+           
+
 
         void mRelativeLayout_Click(object sender, EventArgs e)
         {

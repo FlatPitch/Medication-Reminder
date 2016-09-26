@@ -54,6 +54,7 @@ namespace MedicalApp
                 row = LayoutInflater.From(mContext).Inflate(Resource.Layout.listview_row, null, false);
             }
 
+
             TextView Time = row.FindViewById<TextView>(Resource.Id.Time);
             Time.Text = mItems[position].Time;
             TextView Medication = row.FindViewById<TextView>(Resource.Id.Medication);
@@ -62,6 +63,31 @@ namespace MedicalApp
             Dosage.Text = mItems[position].Dosage;
             CheckBox checkBox = row.FindViewById<CheckBox>(Resource.Id.MedicationCheck);
             row.SetBackgroundColor(Color.DarkSeaGreen);
+
+            //Testing time - Troy O'Shaughnessy (14865290)
+            if (Time == null)
+            {
+                Console.WriteLine("Unit Test 1:  Time not set (failed)");
+            }else
+            {
+                Console.WriteLine("Unit Test 1: Time is set:  Passed");
+                
+            }
+            if (Medication == null)
+            {
+                Console.WriteLine("Unit test 2:  Medication not present (failed)");
+            }else
+            {
+                Console.WriteLine("Unit Test 2: Medication is set: Passed");
+            }
+            if (Dosage == null)
+            {
+                Console.WriteLine("Unit test 3:  No dosage given (failed)");
+            }else
+            {
+                Console.WriteLine("Unit Test 3: Dosage is set: Passed");
+            }
+
 
             checkBox.Click += (o, e) => {
                 if (checkBox.Checked && position != 0)
@@ -74,6 +100,20 @@ namespace MedicalApp
                     row.SetBackgroundColor(Color.DarkSeaGreen);
                 }
                 
+               //liams special tests
+
+                if(checkBox.Checked && row.DrawingCacheBackgroundColor == Color.DarkRed)
+                {
+                    Console.WriteLine("Unit Test 4: ");
+                }
+                if(checkBox.Checked == false && position == 0)
+                {
+                    Console.WriteLine("unit test 5: ");
+                }
+                if(checkBox.Checked && position == 0)
+                {
+                    Console.WriteLine("Unit test 6: ");
+                }
                     
             };
             if(position == 0)
