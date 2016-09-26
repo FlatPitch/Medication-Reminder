@@ -17,7 +17,7 @@ namespace MedicalApp
     {
         private string pathToDB { get; set; }
         private Person personTest;
-        private static string USERNAME = "BLUE";
+        private static string USERNAME = "FAILED";
       
         
 
@@ -50,6 +50,23 @@ namespace MedicalApp
             var db = new SQLiteConnection(this.pathToDB);
             db.DeleteAll<Medication>();
         }
+        public void testing()
+        {
+            Console.WriteLine("Database Testing");
+            Console.WriteLine("Testing variables");
+           
+            if(pathToDB == null) { Console.WriteLine("Unit Test 01: Failed: PathToDB is empty");}
+                else { Console.WriteLine("Unit Test 01: Passed: PathToDB Populated"); }
+
+            if (personTest == null) { Console.WriteLine("Unit Test 02: Failed: personTest is empty"); }
+                else { Console.WriteLine("Unit Test 02: Passed: personTest Populated"); }
+
+            if(USERNAME == "FAILED") { Console.WriteLine("Unit Test 03: Failed: USERNAME Hasnt been updated"); }
+                else { Console.WriteLine("Unit Test 03: Passed: USERNAME has been updated"); }
+
+            Console.WriteLine("Testing Database Construction and Deletion");
+
+            }
 
         public string insertUpdateData(Person data)
         {

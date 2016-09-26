@@ -85,7 +85,7 @@ namespace MedicalApp
                 Console.WriteLine("Unit Test 8: Passed.");
             }
             if (Intent == null)
-            {
+            {   
                 Console.WriteLine("Unit Test 9: Failed to create GUI");
             }
             else
