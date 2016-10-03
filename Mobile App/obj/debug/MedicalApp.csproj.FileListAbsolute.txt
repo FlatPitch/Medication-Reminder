@@ -187,4 +187,96 @@ D:\GitHub CLones\Medication-Reminder\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\GitHub CLones\Medication-Reminder\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 D:\GitHub CLones\Medication-Reminder\obj\Debug\MedicalApp.csprojResolveAssemblyReference.cache
 D:\GitHub CLones\Medication-Reminder\obj\Debug\MedicalApp.dll.mdb
-D:\GitHub CLones\Medication-Reminder\bin\Debug\MedicalApp.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\MedicalApp.dll.config
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\MedicalApp.dll
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\MedicalApp.pdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\MedicalApp.MedicalApp.apk
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\MedicalApp.MedicalApp-Signed.apk
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\MedicalApp.dll
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\MedicalApp.pdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\bin\MedicalApp.MedicalApp.apk
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\layout\gui.xml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\layout\nextday_dialogfragment_layout.xml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\layout\listview_row.xml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\layout\main.xml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\values\strings.xml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\drawable\icon.png
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\drawable\buttonsignin.xml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\drawable\checkbox_style.xml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\drawable\progressbar.xml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\res\drawable\edit_text_style.xml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\R.cs.flag
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\uploadflags.txt
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\MedicalApp.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\Java.Interop.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\Mono.Android.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\mscorlib.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\System.Core.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\System.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\System.Xml.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\MedicalApp.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\System.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\MedicalApp.csprojResolveAssemblyReference.cache
+C:\Users\brend\Documents\GitHub\Medication-Reminder\Mobile App\obj\Debug\MedicalApp.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\MedicalApp.dll.config
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\MedicalApp.dll
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\MedicalApp.pdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\MedicalApp.MedicalApp.apk
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\MedicalApp.MedicalApp-Signed.apk
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\MedicalApp.csprojResolveAssemblyReference.cache
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\MedicalApp.dll
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\MedicalApp.pdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\bin\MedicalApp.MedicalApp.apk
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\layout\gui.xml
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\layout\nextday_dialogfragment_layout.xml
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\layout\listview_row.xml
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\layout\main.xml
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\values\strings.xml
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\drawable\icon.png
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\drawable\buttonsignin.xml
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\drawable\checkbox_style.xml
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\drawable\progressbar.xml
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\res\drawable\edit_text_style.xml
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\R.cs.flag
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\uploadflags.txt
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\Java.Interop.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\MedicalApp.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\Mono.Android.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\mscorlib.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\System.Core.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\System.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\System.Xml.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\MedicalApp.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\System.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\obj\Debug\MedicalApp.dll.mdb
+C:\Users\brend\Desktop\Medication-Reminder Backup\Mobile App\bin\Debug\MedicalApp.dll.mdb

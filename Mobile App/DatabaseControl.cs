@@ -151,9 +151,9 @@ namespace MedicalApp
         {
             var db = new SQLiteConnection(this.pathToDB);
             Medication sertraline = new Medication("admin", "Sertraline", 30, 0900);
-            Medication ritilin = new Medication("admin", "Ritilin", 20, 0900);
-            Medication citalopram = new Medication("admin", "Citalopram", 20, 0900);
-            Medication ritilin2 = new Medication("admin", "Ritilin", 20, 1300);
+            Medication ritilin = new Medication("admin", "Ritilin", 20, 0224);
+            Medication citalopram = new Medication("admin", "Citalopram", 20, 0242);
+            Medication ritilin2 = new Medication("admin", "Morphine", 20, 0225);
             insertUpdateData(sertraline);
             insertUpdateData(ritilin);
             insertUpdateData(citalopram);
