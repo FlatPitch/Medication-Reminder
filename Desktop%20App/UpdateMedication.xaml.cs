@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,5 +23,18 @@ namespace MedicationPC
         {
             InitializeComponent();
         }
+
+        private void updateUsername_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        
     }
 }
+
