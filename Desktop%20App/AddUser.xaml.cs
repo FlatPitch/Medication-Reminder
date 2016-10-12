@@ -1,4 +1,5 @@
-﻿using System;
+using DesktopApp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,32 @@ namespace MedicationPC
         public AddUser()
         {
             InitializeComponent();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            if(Username.Text == "admin")
+            {
+                if (password.Text == "admin")
+                {
+                    new clickaddUser().Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Error: Please enter a valid Username and Password");
+                }
+              
+            }
+            else
+            {
+                MessageBox.Show("Error: Please enter a valid Username and Password");
+            }
+        }
+
+        private void Username_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
