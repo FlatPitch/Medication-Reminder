@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,5 +23,24 @@ namespace MedicationPC
         {
             InitializeComponent();
         }
-    }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            if(remUsername.Text == "admin")
+            {
+                if(remPassword.Text == "admin")
+                {
+                    MessageBox.Show("The user: " + remUsername.Text + " has been successfully removed");
+                }
+                else
+                {
+                    MessageBox.Show("That user does not exist");
+                }
+            }
+            else
+            {
+                MessageBox.Show("That user does not exist");
+            }
+        }
+    } 
 }
