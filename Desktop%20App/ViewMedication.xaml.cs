@@ -1,4 +1,5 @@
-﻿using System;
+using DesktopApp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,19 @@ namespace MedicationPC
         public ViewMedication()
         {
             InitializeComponent();
+        }
+
+        private void viewButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(viewUsername.Text == "admin")
+            {
+                new viewingUserMedicationForm().Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("User: " + viewUsername.Text + " does not exist");
+            }
         }
     }
 }
