@@ -4,7 +4,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="MedicalApp" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:label="GUI" android:name="md5f460a08c6ff6401a575c4c177fb81886.GUI" />
+    <activity android:label="GUI v1.0" android:name="md5f460a08c6ff6401a575c4c177fb81886.GUI" />
     <activity android:icon="@drawable/icon" android:label="MedicalApp" android:name="md5f460a08c6ff6401a575c4c177fb81886.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

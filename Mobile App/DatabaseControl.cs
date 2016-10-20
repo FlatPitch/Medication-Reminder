@@ -50,7 +50,7 @@ namespace MedicalApp
             var db = new SQLiteConnection(this.pathToDB);
             db.DeleteAll<Medication>();
         }
-        public void testing()
+   /*     public void testing()
         {
             Console.WriteLine("Database Testing");
             Console.WriteLine("Testing variables");
@@ -66,7 +66,7 @@ namespace MedicalApp
 
             Console.WriteLine("Testing Database Construction and Deletion");
 
-            }
+            }*/
 
         public string insertUpdateData(Person data)
         {
@@ -131,6 +131,7 @@ namespace MedicalApp
                 medication.Medication = names.medName;
                 medication.Time = names.convertTime();
                 medication.Dosage = Convert.ToString(names.Dosage) + "g";
+                medication.Date = names.Date;
                 
 
                 meds.Add(medication);
@@ -150,10 +151,10 @@ namespace MedicalApp
         public void populateMedication()
         {
             var db = new SQLiteConnection(this.pathToDB);
-            Medication sertraline = new Medication("admin", "Sertraline", 30, 0900);
-            Medication ritilin = new Medication("admin", "Ritilin", 20, 0224);
-            Medication citalopram = new Medication("admin", "Citalopram", 20, 0242);
-            Medication ritilin2 = new Medication("admin", "Morphine", 20, 0225);
+            Medication sertraline = new Medication("admin", "Sertraline", 30, 0651, "20\\10\\2016");
+            Medication ritilin = new Medication("admin", "Ritilin", 20, 0224, "21\\10\\2016");
+            Medication citalopram = new Medication("admin", "Citalopram", 20, 0242, "20\\10\\2016");
+            Medication ritilin2 = new Medication("admin", "Morphine", 20, 0225, "21\\10\\2016");
             insertUpdateData(sertraline);
             insertUpdateData(ritilin);
             insertUpdateData(citalopram);

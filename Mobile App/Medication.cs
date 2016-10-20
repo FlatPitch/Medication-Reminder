@@ -21,11 +21,21 @@ namespace MedicalApp
         public String medName { get; set; }
         public int Dosage { get; set; }
         public int Time { get; set; }
+        public String Date { get; set; }
+
         public Medication()
         {
         
         }
 
+        public Medication(String name, String medname, int dosage, int time, string date)
+        {
+            this.Name = name;
+            this.medName = medname;
+            this.Dosage = dosage;
+            this.Time = time;
+            this.Date = date;
+        } 
 
         public Medication(String name, String medname, int dosage, int time)
         {
