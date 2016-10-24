@@ -50,3 +50,29 @@ C:\Users\Jordan\Documents\Visual Studio 2015\Projects\DesktopApp\obj\Debug\Deskt
 C:\Users\Jordan\Documents\Visual Studio 2015\Projects\DesktopApp\obj\Debug\DesktopApp.Properties.Resources.resources
 C:\Users\Jordan\Documents\Visual Studio 2015\Projects\DesktopApp\obj\Debug\DesktopApp.viewingUserMedicationForm.resources
 C:\Users\Jordan\Documents\Visual Studio 2015\Projects\DesktopApp\obj\Debug\DesktopApp.csproj.GenerateResource.Cache
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\bin\Debug\DesktopApp.exe.config
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp.exe
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp.pdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\bin\Debug\DesktopApp.exe
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\bin\Debug\DesktopApp.pdb
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp.csprojResolveAssemblyReference.cache
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\AddUser.g.cs
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\clickaddUser.g.cs
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\MainWindow.g.cs
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\RemoveUser.g.cs
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\UpdateMedication.g.cs
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\ViewMedication.g.cs
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\App.g.cs
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp_Content.g.cs
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp_MarkupCompile.cache
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp_MarkupCompile.lref
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\AddUser.baml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\clickaddUser.baml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\MainWindow.baml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\RemoveUser.baml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\UpdateMedication.baml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\ViewMedication.baml
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp.g.resources
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp.Properties.Resources.resources
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp.viewingUserMedicationForm.resources
+C:\Users\brend\Documents\GitHub\Medication-Reminder\DesktopApp\obj\Debug\DesktopApp.csproj.GenerateResource.Cache

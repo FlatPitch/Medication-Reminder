@@ -23,6 +23,7 @@ namespace MedicalApp
         private ListView mListView;
         DatabaseControl dbControl = new DatabaseControl();
         private List<ListViewVariables> medication;
+        private AlarmManager alarmMngr;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -154,11 +155,8 @@ namespace MedicalApp
 	    */
         public void scheduleNotification()
         {
-            System.Console.WriteLine("test 2");
             Calendar cal = Calendar.GetInstance(Java.Util.TimeZone.Default);
-            AlarmManager alarmMngr = GetSystemService(AlarmService) as AlarmManager;
             alarmMngr = GetSystemService(AlarmService) as AlarmManager;
-
 
             int id = 0;
             for (int i = 1; i < medication.Count; ++i)
@@ -168,18 +166,21 @@ namespace MedicalApp
                 alarmIntent.PutExtra("Dosage", medication[i].Dosage);
                 alarmIntent.PutExtra("Time", medication[i].Time);
 
-                Console.WriteLine($"Date: {medication[i].Date}");
-
                 PendingIntent pendIntent = PendingIntent.GetBroadcast(this, id, alarmIntent,
                     PendingIntentFlags.UpdateCurrent);
 
-               cal.Set(CalendarField.DayOfMonth, Convert.ToInt32(splitDate(medication[i].Date, "Day")));
-               cal.Set(CalendarField.Month, Convert.ToInt32(splitDate(medication[i].Date, "Month")));
-               cal.Set(CalendarField.Year, Convert.ToInt32(splitDate(medication[i].Date, "Year")));
-               cal.Set(CalendarField.HourOfDay, convertTime(medication[i].Time, "Hour"));
-               cal.Set(CalendarField.Minute, convertTime(medication[i].Time, "Minute"));
+                cal.TimeInMillis = Java.Lang.JavaSystem.CurrentTimeMillis();
+                cal.Clear();
 
-               alarmMngr.Set(AlarmType.RtcWakeup, cal.TimeInMillis, pendIntent);
+               cal.Set(CalendarField.Date, Convert.ToInt32(splitDate(medication[i].Date, "Day")));
+                cal.Set(CalendarField.Month, Calendar.October);
+    //           cal.Set(CalendarField.Month, Convert.ToInt32(splitDate(medication[i].Date, "Month")));
+                cal.Set(CalendarField.Year, Convert.ToInt32(splitDate(medication[i].Date, "Year")));
+                cal.Set(CalendarField.HourOfDay, convertTime(medication[i].Time, "Hour"));
+                cal.Set(CalendarField.Minute, convertTime(medication[i].Time, "Minute"));
+
+
+                alarmMngr.Set(AlarmType.RtcWakeup, cal.TimeInMillis, pendIntent);
 
                 id++;
             }      
@@ -196,14 +197,17 @@ namespace MedicalApp
         {
             if (key.Equals("Day"))
             {
+                Console.WriteLine($"Day: {date.Substring(0, 2)} ");
                 return (date.Substring(0, 2));
             }
             else if (key.Equals("Month"))
             {
+                Console.WriteLine($"Month: {date.Substring(3, 2)}");
                 return (date.Substring(3, 2));
             }
             if (key.Equals("Year"))
             {
+                Console.WriteLine($"Year: {date.Substring(6, 4)}");
                 return (date.Substring(6, 4));
             }
             return ("");

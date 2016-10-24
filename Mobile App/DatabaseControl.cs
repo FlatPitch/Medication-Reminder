@@ -151,10 +151,10 @@ namespace MedicalApp
         public void populateMedication()
         {
             var db = new SQLiteConnection(this.pathToDB);
-            Medication sertraline = new Medication("admin", "Sertraline", 30, 0651, "20\\10\\2016");
-            Medication ritilin = new Medication("admin", "Ritilin", 20, 0224, "21\\10\\2016");
-            Medication citalopram = new Medication("admin", "Citalopram", 20, 0242, "20\\10\\2016");
-            Medication ritilin2 = new Medication("admin", "Morphine", 20, 0225, "21\\10\\2016");
+            Medication sertraline = new Medication("admin", "Sertraline", 30, 2314, "24\\10\\2016");
+            Medication ritilin = new Medication("admin", "Ritilin", 20, 2232, "25\\10\\2016");
+            Medication citalopram = new Medication("admin", "Citalopram", 20, 2315, "24\\10\\2016");
+            Medication ritilin2 = new Medication("admin", "Morphine", 20, 1951, "25\\10\\2016");
             insertUpdateData(sertraline);
             insertUpdateData(ritilin);
             insertUpdateData(citalopram);
